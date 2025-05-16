@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task/features/products/presentation/products_view.dart';
 
 void main() {
   runApp(const ProductsApp());
@@ -9,6 +10,6 @@ class ProductsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(home: ProductsView());
   }
 }
